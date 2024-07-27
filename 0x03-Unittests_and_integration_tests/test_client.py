@@ -106,4 +106,4 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
         """doc doc doc"""
         github_org_client = GithubOrgClient("google")
         self.assertEqual(github_org_client.public_repos(license="apache-2.0"),
-        self.apache2_repos)
+                         self.apache2_repos)
